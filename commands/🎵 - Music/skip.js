@@ -3,7 +3,7 @@ const { MessageEmbed } = require('discord.js');
 module.exports = {
     name: 'skip',
     aliases: ['s'],
-    description: 'Bỏ qua bài hát hiện tại',
+    description: 'Skip current song',
     usage: '',
     category: '🎵 - Music',
     cooldown: 0,
@@ -13,20 +13,20 @@ module.exports = {
         if(!voiceChannel) return message.reply({embeds: [
             new MessageEmbed()
             .setColor('RED')
-            .setDescription(`🚫 | Bạn cần tham gia một kênh thoại để sử dụng tính năng này.`)
+            .setDescription(`🚫 | You need to join a voice channel to use this feature.`)
         ]});
         if(!queue) return message.reply({embeds: [
             new MessageEmbed()
             .setColor('EF4F4F')
-            .setAuthor({name: 'Lỗi', iconURL: 'https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif'})
-            .setDescription('Không có bài hát nào đang phát!')
+            .setAuthor({name: 'Error', iconURL: 'https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif'})
+            .setDescription('No songs are playing!')
         ]})
         if(queue) {
             if(message.guild.me.voice.channelId !== message.member.voice.channelId) {
                 return message.reply({embeds: [
                     new MessageEmbed()
                     .setColor('RED')
-                    .setDescription(`🚫 | Bạn cần vào cùng một kênh thoại với bot!`)
+                    .setDescription(`🚫 | You need to be on the same voice channel as the bot!`)
                 ]});
             }
         }
@@ -35,8 +35,8 @@ module.exports = {
         message.channel.send({embeds: [
             new MessageEmbed()
             .setColor('#ccff48')
-            .setAuthor({name: 'Bỏ qua bài hát', iconURL: 'https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif'})
-            .setDescription('Đã bỏ qua bài hát!')
+            .setAuthor({name: 'Skip song', iconURL: 'https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif'})
+            .setDescription('Skipped song!')
         ]});
     }
 }
