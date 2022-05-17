@@ -1,10 +1,10 @@
 {
-    "token": "TOKEN_APP",
-    "prefix": "PREFIX",
-    "cookie": "COOKIE_YOUTUBE",
+    "token": "",
+    "prefix": "c.",
+    "cookie": "VISITOR_INFO1_LIVE=V-ebTZT47AE; PREF=f4=4000000&tz=Asia.Jakarta&f6=40000000; SID=KAjlM0_XsG2IZ2s_3jFfZ-WWoR5B69Nk8OCvlM-rJLIma5gbUV3u0A6-y_7LeKdjKFPbPQ.; __Secure-1PSID=KAjlM0_XsG2IZ2s_3jFfZ-WWoR5B69Nk8OCvlM-rJLIma5gbFoM5ZhjVWpH9g5nOQ8Oigw.; __Secure-3PSID=KAjlM0_XsG2IZ2s_3jFfZ-WWoR5B69Nk8OCvlM-rJLIma5gb4K9kSLt1Q8h1ZQ-URLu4Gw.; HSID=AzRWFnXhp32nhZrob; SSID=AsG62W80Jdylc8dpF; APISID=sCxB5RqXzX89Gwo_/AtdvDAERjuGAODF7Y; SAPISID=GWbvShBlgx5lC-q_/AEVKQF3Fzy4eeWppH; __Secure-1PAPISID=GWbvShBlgx5lC-q_/AEVKQF3Fzy4eeWppH; __Secure-3PAPISID=GWbvShBlgx5lC-q_/AEVKQF3Fzy4eeWppH; LOGIN_INFO=AFmmF2swRgIhAPNmWop_swXJB1gjQInZ7fvgdeWfZcgZww4_Cu6ikBZEAiEA_Ee3ASTpZGTh9DzpzOW7eOOB_fNhMRfp0XtWY4K3Q5U:QUQ3MjNmd0lmSnJxY3NBUU4zcmdTcWJWQU9ITGo3dDAzQ25wQlk2QkNzcnVSQUxtYXduM0JMZVFfdmNGX0JadWJjMmNBcHZySmwzLXV0YkJvMkx5Y1pzbGEycDlyczBKRzQtWlE3ZndWbUNyWW1yQUVEeU9HQnJrQlAwR1FwUk9zRjVSSm5WRVhTbDljOHJzU2RnT2tXc19ROV9QTEYzMHh3; SIDCC=AJi4QfE18qxnz0oXG6oq5HSfcVmXwf1YHeqdmP4IXx1tp6D2zur4HM1wnHBP1PH4lLl3IAkefg; __Secure-3PSIDCC=AJi4QfHW199jsvXUbwKYPBnwoaR4t2k4JNx1GpUxz0R-3DDU_QRc9u-SIyByOsricR39-WCsjQ; YSC=rKi4yC-WGCY; CONSISTENCY=AGDxDePn5G2jFj7rz8zvn7agwPhM0L2X_y50oLZ7MLGcc2lK-1RWhN_7-vrlkEuv35X8NcSUWuUQNubHl2Ox-K0vzH85C-Acv6wVgSyMY5koSdhbdF7SdfaIp6ovtoagPabeenRVal-LI8_xo2e36h5p",
     "spotifyapi": {
         "enabled": true,
-        "clientSecret": "CLIENT_SECRET_SPOTIFY",
-        "clientId": "CLIENT_ID_SPOTIFY"
+        "clientSecret": "45ae3f3b7e294712b380a51d0dbfd4e9",
+        "clientId": "48c080f22bcb466eb62277d3defdc8c3"
   }
 }
