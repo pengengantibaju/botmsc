@@ -18,7 +18,7 @@ function getAll (client, message) {
     const embed = new MessageEmbed()
     .setColor('#ccff48')
     .setTitle(`📫 | List of commands of ${client.user.username}`)
-    .setFooter(`Use D! Help [Command name] for more details!`)
+    .setFooter(`Use prefix Help [Command name] for more details!`)
 
     const commands = (category) => {
         return client.commands
